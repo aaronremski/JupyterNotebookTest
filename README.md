@@ -11,7 +11,7 @@ Notebook name: JupyterNotebookTest1
 Branches used: Main, rottentomato 
 
 ### Notes on Method 1
-These solutions appear to be quite old, ~6-7 years. I would think by now IPython & Git/Github have this worked out
+These solutions appear to be older, ~6-7 years, and after reviewing documenation, a little too cumbersome for me. Working with method 2 for a while and will determine best fit solution 
 
 ## Method 2
 https://towardsdatascience.com/version-control-with-jupyter-notebook-b9630bc5996e 
