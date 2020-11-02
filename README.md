@@ -19,4 +19,4 @@ https://towardsdatascience.com/version-control-with-jupyter-notebook-b9630bc5996
 Basically, you're not tracking .ipynb or checkout files. You convert to jupytertext FIRST and track all changes via converted .py files. Works nicely and you can include instructions for cloning/forking/etc a repo and converting BACK to ipynb for project continuation. 
 
 Files used: 
-Branches used: 
+Branches used:  
