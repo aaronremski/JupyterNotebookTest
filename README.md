@@ -8,7 +8,7 @@ https://mg.readthedocs.io/git-jupyter.html
 which references: https://stackoverflow.com/questions/18734739/using-ipython-notebooks-under-version-control/20844506<br />
 <br/>
 Files: JupyterNotebookTest1.ipynb<br/>
-Branches: main, rottentomato<br/>
+Branches: **main, rottentomato**<br/>
 <br/>
 **_Notes on Method 1_**<br/>
 These solutions appear to be older, ~6-7 years, and after reviewing documenation, a little too cumbersome for me. Working with method 2 for a while and will determine best fit solution 
@@ -30,5 +30,6 @@ Establishing a link between the notebook and the .py file is easy. Here are 2 wa
 2. command line: >jupytext --to py notebook.ipynb 
 [Additional commands](https://jupytext.readthedocs.io/en/latest/using-cli.html)
 
-Files: JupyterNotebookTest2.ipynb, JupyterNotebookTest2.py<br/>
-Branches: main<br/>
+
+Branches: **main, v1.1**<br/>
+
