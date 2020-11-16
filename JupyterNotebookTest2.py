@@ -26,6 +26,9 @@ y = np.sin(x)
 plt.plot(x, y)
 plt.show()
 
+# %% [markdown]
+# # Pcolor graph with matplotlib
+
 # %%
 Z = np.random.rand(6, 10)
 
@@ -39,5 +42,24 @@ ax1.set_title('thick edges')
 
 fig.tight_layout()
 plt.show()
+
+# %% [markdown]
+# # Parametric Curve with matplotlib
+
+# %%
+plt.rcParams['legend.fontsize'] = 10
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+
+# Prepare arrays x, y, z
+theta = np.linspace(-4 * np.pi, 4 * np.pi, 100)
+z = np.linspace(-2, 2, 100)
+r = z**2 + 1
+x = r * np.sin(theta)
+y = r * np.cos(theta)
+
+ax.plot(x, y, z, label='parametric curve')
+ax.legend()
 
 # %%
